@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mihirkavi/receiptcal-plugin.git"
+    "url": "git+https://github.com/ReceiptCal/receiptcal-plugin.git"
   },
-  "homepage": "https://github.com/mihirkavi/receiptcal-plugin",
+  "homepage": "https://github.com/ReceiptCal/receiptcal-plugin",
   "bugs": {
-    "url": "https://github.com/mihirkavi/receiptcal-plugin/issues"
+    "url": "https://github.com/ReceiptCal/receiptcal-plugin/issues"
   },
   "files": [
     "dist/src/",
