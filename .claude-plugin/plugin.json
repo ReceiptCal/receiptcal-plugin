@@ -7,7 +7,7 @@
     "name": "ReceiptCal"
   },
   "homepage": "https://receiptcal.com",
-  "repository": "https://github.com/mihirkavi/receiptcal-plugin",
+  "repository": "https://github.com/ReceiptCal/receiptcal-plugin",
   "license": "MIT",
   "keywords": [
     "receiptcal",

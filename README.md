@@ -23,7 +23,7 @@
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-063022?style=flat-square"></a>
   <img alt="Hosted MCP with OAuth sign-in" src="https://img.shields.io/badge/MCP%20%C2%B7%20OAuth-127A3D?style=flat-square">
-  <a href="https://github.com/mihirkavi/receiptcal-plugin/actions/workflows/validate.yml"><img alt="Validate workflow" src="https://img.shields.io/github/actions/workflow/status/mihirkavi/receiptcal-plugin/validate.yml?branch=main&style=flat-square&label=validate&color=127A3D"></a>
+  <a href="https://github.com/ReceiptCal/receiptcal-plugin/actions/workflows/validate.yml"><img alt="Validate workflow" src="https://img.shields.io/github/actions/workflow/status/ReceiptCal/receiptcal-plugin/validate.yml?branch=main&style=flat-square&label=validate&color=127A3D"></a>
   <img alt="Status: developer preview" src="https://img.shields.io/badge/status-developer%20preview-56675F?style=flat-square">
 </p>
 
@@ -69,14 +69,14 @@ Analyze this receipt with ReceiptCal.
 **Claude Code**
 
 ```sh
-claude plugin marketplace add mihirkavi/receiptcal-plugin
+claude plugin marketplace add ReceiptCal/receiptcal-plugin
 claude plugin install receiptcal@receiptcal-plugins
 ```
 
 **Codex**
 
 ```sh
-codex plugin marketplace add https://github.com/mihirkavi/receiptcal-plugin.git
+codex plugin marketplace add https://github.com/ReceiptCal/receiptcal-plugin.git
 codex plugin add receiptcal@receiptcal-plugins
 ```
 
@@ -118,7 +118,7 @@ Camera capture and barcode scanning, Apple Health and Health Connect permissions
 Node.js 22+. No backend checkout needed; tests use synthetic data and mocked responses.
 
 ```sh
-git clone https://github.com/mihirkavi/receiptcal-plugin.git
+git clone https://github.com/ReceiptCal/receiptcal-plugin.git
 cd receiptcal-plugin
 npm ci
 npm run validate          # typecheck, 16 tests, build, manifest sync
@@ -149,7 +149,7 @@ npm run configure:local   # optional: writes an ignored .mcp.local.json for the 
 
 [Service privacy](https://mcp.receiptcal.com/privacy) · [Service terms](https://mcp.receiptcal.com/terms) · [Security reporting](SECURITY.md)
 
-File code bugs with synthetic reproduction steps in [GitHub issues](https://github.com/mihirkavi/receiptcal-plugin/issues). Never include receipts, health details, chats, account identifiers, tokens or screenshots with personal data; account-specific reports belong in ReceiptCal's private support flow.
+File code bugs with synthetic reproduction steps in [GitHub issues](https://github.com/ReceiptCal/receiptcal-plugin/issues). Never include receipts, health details, chats, account identifiers, tokens or screenshots with personal data; account-specific reports belong in ReceiptCal's private support flow.
 
 The [MIT License](LICENSE) covers this repository only. It grants no rights to the private app and backend, customer data, third-party content or ReceiptCal trademarks.
 

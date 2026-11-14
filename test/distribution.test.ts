@@ -9,7 +9,7 @@ test("portable and compatibility distributions agree on version, license and end
     const manifest = await json(path);
     assert.equal(manifest.version, pkg.version);
     assert.equal(manifest.license, "MIT");
-    assert.equal(manifest.repository, "https://github.com/mihirkavi/receiptcal-plugin");
+    assert.equal(manifest.repository, "https://github.com/ReceiptCal/receiptcal-plugin");
   }
   const portable = (await json("mcp.json")).mcpServers.receiptcal;
   const legacy = (await json(".mcp.json")).mcpServers.receiptcal;
