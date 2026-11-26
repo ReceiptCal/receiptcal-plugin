@@ -22,7 +22,7 @@
     "validate": "npm run typecheck && npm test && npm run build && npm run manifests:check"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.30.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
     "ajv": "8.20.0"
   },
   "devDependencies": {
