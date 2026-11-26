@@ -8,7 +8,7 @@ test("portable and compatibility distributions agree on version, license and end
   for (const path of ["plugin.json", ".codex-plugin/plugin.json", ".claude-plugin/plugin.json"]) {
     const manifest = await json(path);
     assert.equal(manifest.version, pkg.version);
-    assert.equal(manifest.license, "MIT");
+    assert.equal(manifest.license, "Apache-2.0");
     assert.equal(manifest.repository, "https://github.com/ReceiptCal/receiptcal-plugin");
   }
   const portable = (await json("mcp.json")).mcpServers.receiptcal;
