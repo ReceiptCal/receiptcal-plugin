@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "ReceiptCal plugin"
+abstract: >-
+  Open-source MCP plugin that brings your ReceiptCal food log into Claude Code,
+  Codex and other AI assistants, with OAuth sign-in and approve-first changes.
+authors:
+  - given-names: Mihir
+    family-names: Kavishwar
+version: 0.1.0
+repository-code: "https://github.com/ReceiptCal/receiptcal-plugin"
+url: "https://receiptcal.com"
+license: Apache-2.0
+keywords:
+  - receiptcal
+  - mcp
+  - model-context-protocol
+  - ai-agents
+  - nutrition
+  - food-logging
+  - receipts
+  - meal-planning

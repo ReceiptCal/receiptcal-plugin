@@ -22,7 +22,7 @@
     "validate": "npm run typecheck && npm test && npm run build && npm run manifests:check"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.30.0",
+    "@modelcontextprotocol/sdk": "1.32.2",
     "ajv": "8.20.0"
   },
   "devDependencies": {
@@ -30,7 +30,7 @@
     "tsx": "4.23.15",
     "typescript": "7.0.2"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ReceiptCal/receiptcal-plugin.git"
@@ -50,6 +50,9 @@
     ".claude-plugin/plugin.json",
     "README.md",
     "LICENSE",
+    "NOTICE",
+    "TRADEMARKS.md",
+    "CITATION.cff",
     "SECURITY.md"
   ]
 }

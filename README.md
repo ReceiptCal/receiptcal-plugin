@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-063022?style=flat-square"></a>
+  <a href="LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-063022?style=flat-square"></a>
   <img alt="Hosted MCP with OAuth sign-in" src="https://img.shields.io/badge/MCP%20%C2%B7%20OAuth-127A3D?style=flat-square">
   <a href="https://github.com/ReceiptCal/receiptcal-plugin/actions/workflows/validate.yml"><img alt="Validate workflow" src="https://img.shields.io/github/actions/workflow/status/ReceiptCal/receiptcal-plugin/validate.yml?branch=main&style=flat-square&label=validate&color=127A3D"></a>
   <img alt="Status: developer preview" src="https://img.shields.io/badge/status-developer%20preview-56675F?style=flat-square">
@@ -151,7 +151,16 @@ npm run configure:local   # optional: writes an ignored .mcp.local.json for the 
 
 File code bugs with synthetic reproduction steps in [GitHub issues](https://github.com/ReceiptCal/receiptcal-plugin/issues). Never include receipts, health details, chats, account identifiers, tokens or screenshots with personal data; account-specific reports belong in ReceiptCal's private support flow.
 
-The [MIT License](LICENSE) covers this repository only. It grants no rights to the private app and backend, customer data, third-party content or ReceiptCal trademarks.
+### License
+
+This plugin is licensed under the [Apache License 2.0](LICENSE). If you redistribute it or a derivative, keep the [NOTICE](NOTICE) file so the ReceiptCal credit travels with your copy. The license covers this repository only; versions released before the change to Apache-2.0 remain available under MIT.
+
+- **Trademarks:** the license does not cover the ReceiptCal name or logo. Forks must use a different name; "works with ReceiptCal" is fine. See [TRADEMARKS.md](TRADEMARKS.md).
+- **The service is separate:** using the plugin requires a ReceiptCal account. The ReceiptCal app, backend and hosted service are proprietary and governed by the [service terms](https://mcp.receiptcal.com/terms); no rights to them, customer data or third-party content are granted here.
+
+## Cite
+
+If you use this plugin in research or writing, cite it with the metadata in [CITATION.cff](CITATION.cff) (GitHub's "Cite this repository" button reads it).
 
 <p align="center">
   <br>
